@@ -1,5 +1,7 @@
-FROM trenpixster/elixir
+FROM trenpixster/elixir:1.0.4
 MAINTAINER Paul Gross @pgr0ss
+
+ENV REFRESHED_AT 2015-05-25
 
 # Install Docker
 RUN echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list \
